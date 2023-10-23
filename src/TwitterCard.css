@@ -1,0 +1,62 @@
+article{
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+   
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+}
+
+button{
+    align-self: center;
+    justify-self: flex-end;
+    margin: 0 0 0 auto ;
+    padding: 7px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:hover{
+
+    background: #1889da;
+    
+}
+
+img{
+
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+
+.following:hover{
+    background: #ce2a2a;
+    transition: .3s;
+    
+
+}
+
+.following:hover .follow-text {
+
+    display: none;
+}
+
+.following:hover .unfollow{
+    display: block;
+}
+
+.unfollow {
+
+    display: none;
+}
+
+
+
+

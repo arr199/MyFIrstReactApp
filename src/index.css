@@ -1,0 +1,10 @@
+body {
+    background-color: #161616;
+    color: whitesmoke;
+    display: grid;
+    margin: 0 ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
